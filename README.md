@@ -22,8 +22,8 @@ Trie.java: Implements the Trie data structure.
 Input_01.txt: Sample input file containing alphabetically sorted words.
 
 # Screenshots
-![1_CompoundedWords](https://github.com/PranavChaturvedi26/Word_Composition/assets/72809454/c3f12774-f2ab-4605-9b22-7d985300805e)
-![2_CompoundedWords](https://github.com/PranavChaturvedi26/Word_Composition/assets/72809454/83e3c035-c02b-4a9e-930b-1b510d354d1c)
+![1_CompoundedWords](https://github.com/PranavChaturvedi26/Word_Composition/assets/72809454/b54eaf5b-a6ea-4308-8b9d-fc3e6a8f8b16)
+
 
 
 # Requirements
