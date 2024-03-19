@@ -14,21 +14,21 @@ Solution Class: Contains the main logic for processing the input file, building 
 Node Class: Represents a node in the Trie data structure.
 
 # Usage
-Compilation: Compile the Java source files using a Java compiler. For example:
-
-Copy code
-javac Solution.java
-Execution: Run the compiled Java program, specifying the input text file as an argument. For example:
-
-Copy code
-java Solution Input_01.txt
-Output: The program will display the longest compounded word, the second-longest compounded word, and the time taken to process the input file.
+1. Compilation: Compile the Java source files using a Java compiler. For example: javac Solution.java
+2. Execution: Run the compiled Java program, specifying the input text file as an argument. For example: java Solution Input_01.txt
+3. Output: The program will display the longest compounded word, the second-longest compounded word, and the time taken to process the input file.
 
 # File Structure
 Solution.java: Contains the main solution logic.
 Node.java: Represents a node in the Trie data structure.
 Trie.java: Implements the Trie data structure.
 Input_01.txt: Sample input file containing alphabetically sorted words.
+
+# Screenshots
+![1_CompoundedWords](https://github.com/PranavChaturvedi26/Word_Composition/assets/72809454/c3f12774-f2ab-4605-9b22-7d985300805e)
+![2_CompoundedWords](https://github.com/PranavChaturvedi26/Word_Composition/assets/72809454/83e3c035-c02b-4a9e-930b-1b510d354d1c)
+
+
 # Requirements
 Java Development Kit (JDK) installed on the system.
 Text file containing alphabetically sorted words as input.
