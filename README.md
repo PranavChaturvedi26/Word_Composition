@@ -1,19 +1,16 @@
 # Compounded Words Finder
-This Java program reads a list of alphabetically sorted words from a text file, identifies the longest and second-longest compounded words, and measures the time taken to process the input file.
+It is a Java program designed to find the longest and second longest words from a list of words. Compounded words are words that can be formed by combining short words of the same form.
 
 # Problem Description
 Given a list of alphabetically sorted words in a text file, a compounded word is defined as a word that can be constructed by combining shorter words also found in the same file. The program aims to identify the longest and second-longest compounded words from the input file.
 
 # Solution Overview
-The solution provided consists of:
+The program uses the Trie data structure to store and retain messages. It creates a Trie by reading each word in the input file and placing it into the Trie. As each word is added, all possible prefixes in the Trie for that word are checked and added to the column containing the word's endings.
 
-Trie Data Structure: Implemented to efficiently store the words from the input file and facilitate the search for prefixes and valid words.
-
-Solution Class: Contains the main logic for processing the input file, building the Trie, and finding the longest and second-longest compounded words.
-
-Node Class: Represents a node in the Trie data structure.
+After creating the Trie, the program will iterate through the lines and check if the meaning of each word is a valid word already found in the Trie. If so, it updates the longest message and the second longest message together. The process will continue until the queue runs out.
 
 # Usage
+Compilation: Compile the Java source file Solution.java using the Java compiler.
 1. Compilation: Compile the Java source files using a Java compiler. For example: javac Solution.java
 2. Execution: Run the compiled Java program, specifying the input text file as an argument. For example: java Solution Input_01.txt
 3. Output: The program will display the longest compounded word, the second-longest compounded word, and the time taken to process the input file.
